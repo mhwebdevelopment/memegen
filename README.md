@@ -1,6 +1,12 @@
 # Marketing meme generator in progress
 
 Needs format adjustments, csv input handling, & enabling cli caption input - but works with .gif or .mp4 files
+- [] Adjust caption formatting and wrap
+- [] Update for gifs shorter than set output time to loop rather than stop (as you can see in the output examples)
+- [] Agent based hook generation (scheduled or workflow based)
+- [] Simple cron job scheduling for runs
+- [] Semantic meme folder usage for matching caption emotion to meme emotion
+
 
 Ideal workflow is to, in an automated manner:
 - find an emotion / action anchored meme clip
